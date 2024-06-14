@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<header>
+<title>sign_up-page</title>
+<link rel="stylesheet" href="./css-pages/index.css">
+</header>
+<body>
+
+<form action="./pages/success.html" id="formtag">
+
+<h1>Register</h1>
+<p id="registr-downpara">Please fill in this form to create an account.</p>
+
+<p>Username<br /><input type="text" class="input" required name="username" placeholder="Enter username" size="50"/></p>
+
+<p>Email<br /><input type="email" class="input" required name="email" placeholder="Enter email" size="50"/></p>
+
+<p>Password<br /><input type="password" class="input" required name="password" placeholder="Enter password" size="50"/></p>
+
+<p>Confirm Password<br /><input type="password" class="input" required name="cfrimpassword" placeholder="Confirm Password" size="50"/></p>
+
+<p>Select Gender<br />
+<p><input type="radio" name="gender" required value="male" size="25" checked/>Male 
+<input type="radio" name="gender" required value="female" size="25"/>Female</p></p>
+
+<p>Pick Your Birth Date <br /><br /><input type="date" required name"date" value"date"/></p>
+
+<p>Select Course<br />
+<p><input type="radio" name="course" required value="fronted-web" size="25" checked/> Fronted Web Development
+<input type="radio" name="course" required value="backend-web" size="25"/>Backend Web Development
+</p></p>
+
+<input type="submit" id="submit-btn"/>
+
+</form>
+
+</body>
+</html>
